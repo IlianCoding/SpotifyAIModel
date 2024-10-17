@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def introduce_filthy_data(df, null_chance=0.1, outlier_chance=0.1, duplicate_chance=0.001):
+def introduce_filthy_data(df, null_chance=0.01, outlier_chance=0.01, duplicate_chance=0.01):
     # Create a copy of the DataFrame to avoid modifying the original
     df_filthy = df.copy()
 
